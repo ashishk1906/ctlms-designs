@@ -45,6 +45,7 @@
     font-size: 26px;
     color: var(--ct-text-primary);
     font-family: Arial, sans-serif;
+    margin-bottom: -20px;
   }
 
   & .mid-panel-subtext {
