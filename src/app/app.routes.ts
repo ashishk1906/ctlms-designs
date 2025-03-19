@@ -11,6 +11,7 @@ import { Ch3NotesComponent } from './components/ch3-notes/ch3-notes.component';
 import { CtlmsShapesNotes1Component } from './components/ctlms-shapes-notes1/ctlms-shapes-notes1.component';
 import { CtlmsShapesNotes2Component } from './components/ctlms-shapes-notes2/ctlms-shapes-notes2.component';
 import { CtlmsShapesWorksheetComponent } from './components/ctlms-shapes-worksheet/ctlms-shapes-worksheet.component';
+import { Ch4LessonplanComponent } from './components/ch4-lessonplan/ch4-lessonplan.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,6 +25,7 @@ export const routes: Routes = [
   { path: 'ctlms-shapes-notes1', component: CtlmsShapesNotes1Component },
   { path: 'ctlms-shapes-notes2', component: CtlmsShapesNotes2Component },
   { path: 'ctlms-shapes-worksheet', component: CtlmsShapesWorksheetComponent },
+  { path: 'ctlms-ch4-lessonplan', component: Ch4LessonplanComponent },
   { path: '**', redirectTo: '' },
 ];
 
